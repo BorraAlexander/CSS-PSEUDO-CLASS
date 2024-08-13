@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto;
+}
+
+.main-container {
+    padding: 20px;
+}
+
+.section-heading {
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.sub-heading {
+    margin: 0px;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    font-family: "Roboto";
+    border: 1px solid darkviolet;
+    color: darkviolet;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 12px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: darkviolet;
+    color: #ffffff;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li:nth-child(2n) {
+    color: orange;
+}
